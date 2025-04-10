@@ -1,0 +1,5 @@
+let numero = 10
+
+let resultado = numero >= 0 ? 'Positivo' : 'Negativo'
+
+console.log(resultado);
