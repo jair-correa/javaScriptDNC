@@ -8,3 +8,16 @@ while (num <= 5) {
     console.log(num);
     num++
 }
+
+
+console.log("--------------------------\n");
+
+let isTrue = false;
+let selectedNumber =Math.floor(Math.random() *10)+1
+console.log(selectedNumber);
+
+while(!isTrue){
+  let guess = prompt('Qual o valor que o computador escolheu de 1 a 10? : ')
+  
+  if(Number(guess) ===selectedNumber)isTrue =true;
+}
